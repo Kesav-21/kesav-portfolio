@@ -1,5 +1,5 @@
 import React from "react";
-import Card from "./Card";
+import Card from "../Components/Card";
 import Bank from "../Assets/Images/bank.jpg";
 import Quote from "../Assets/Images/quote.jpg";
 import Calc from "../Assets/Images/calculator.jpg";

@@ -15,7 +15,7 @@ const Start=()=>{
             <img id="img-down" src={hd} width={50} height={50} alt="hand-down"/>
             </div>
             <img id="img-rgt" src={hr} width={90} height={90} alt="hand-right"/>
-            <Link to="/home"><button className="btn">Click Here to View More about me</button></Link>
+            <Link to="/home"><button className="btn">Explore More about me</button></Link>
             <img id="img-lft" src={hl} width={90} height={90} alt="hand-left"/>
             </section>
         </div>

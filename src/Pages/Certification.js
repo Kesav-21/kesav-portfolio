@@ -1,5 +1,5 @@
 import React from "react";
-import Certcard from "./Certcard";
+import Certcard from "../Components/Certcard";
 
 const Certification=()=>{
     return (
