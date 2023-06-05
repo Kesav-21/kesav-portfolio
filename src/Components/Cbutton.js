@@ -9,7 +9,7 @@ const Cbutton=(props)=>{
         //     </a> 
         // </div>
         <div className="social">
-            <a href={props.url} target="_blank">
+            <a href={props.url} target="_blank" rel="noreferrer">
             <img src={props.img} width={100} height={100} alt={props.title}/>
             <h5>{props.title}</h5>
             </a>      
