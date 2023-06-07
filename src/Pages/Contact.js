@@ -15,7 +15,7 @@ const Contact=()=>{
     return(
         <div className="container">
             <section className="contact-section">
-                <h1>Profile & Contact</h1>
+                <h1 className="title">Profile & Contact</h1>
                 <section className="social-link">
                 <Cbutton title="LinkedIn" img={LinkedIn} url="https://www.linkedin.com/in/kesavaraman-m-r-43a38b167/"/>
                 <Cbutton title="Gmail" img={Gmail} url="mailto:technowkesav@gmail.com"/>

@@ -22,7 +22,7 @@ const Skills=()=>{
     return(
         <div className="container">
         <div className="content-section">
-            <p>My Skills</p>
+            <h1 className="title">My Skills</h1>
             <section className="skill-container">
                 <Progress title="HTML" value="90" img={HTML}/>
                 <Progress title="CSS" value="80" img={css}/>
@@ -39,10 +39,10 @@ const Skills=()=>{
             <section className="other-skills-container">
                 <h2>Other Skills : </h2>
                 <section className="other-skills">
-                <img src={Linux} width={40} height={40} alt="Linux"/>
-                <img src={Gcloud} width={40} height={40} alt="GCloud"/>
-                <img src={Git} width={40} height={40} alt="Git"/>
-                <img src={PS} width={40} height={40} alt="Photoshop"/>
+                <img src={Linux} width={50} height={50} alt="Linux"/>
+                <img src={Gcloud} width={50} height={50} alt="GCloud"/>
+                <img src={Git} width={50} height={50} alt="Git"/>
+                <img src={PS} width={50} height={50} alt="Photoshop"/>
                 </section>
             </section>
         </div>

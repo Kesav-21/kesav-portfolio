@@ -66,13 +66,7 @@
   .top-nav-right{
     float:none;
   }
-  .container{
-    width: 90%;
-    display: block;
-    position: relative;
-    margin: auto;
-    padding-top: 50px;
-  }
+  
   .content-section{
     float:none;
     width: 100%;
@@ -86,7 +80,7 @@
     width:100%;
   }
   .image-section img{
-    width:70%;
+    width:50%;
     display: block;
     margin:auto;
     margin-top: 10px;

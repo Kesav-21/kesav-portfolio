@@ -6,7 +6,7 @@ const Certcard=(props)=>{
             <hr />
             <h3 style={{color:"#008cff"}} >{props.certificate}</h3>
             <i>by {props.provider}</i><br />
-            <small>Issued {props.date}</small>
+            <small>{props.date}</small>
             <hr />            
         </div>
     )

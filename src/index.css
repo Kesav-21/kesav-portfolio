@@ -18,6 +18,12 @@ body {
   height: 100%;
 }
 
+/* Hide Scrollbar */
+
+html::-webkit-Scrollbar{
+  display:none;
+}
+
 /*Container*/
 .container{
   width: 70%;
@@ -31,8 +37,16 @@ body {
   border: 1px solid rgba( 255, 255, 255, 0.18 );
 }
 
-
-
+/*Mobile View*/
+@media screen and (max-width:768px){
+.container{
+  width: 90%;
+  display: block;
+  position: relative;
+  margin: 2vh auto;
+  padding-top: 50px;
+}
+}
 
 
 

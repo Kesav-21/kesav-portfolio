@@ -16,7 +16,7 @@ const Works=()=>{
     return(
         <div className="container">
             <div className="content-section">
-            <h2 style={{textAlign:"center",marginBottom:"10px"}}>My Works</h2>
+            <h1 className="title">My Works</h1>
                 <section className="card-section">
                 <Card title="Basic Banking App" img={Bank} url="https://spark-kesav.000webhostapp.com/"/>
                 <Card title="Quotes Generator" img={Quote} url="https://kesav-21.github.io/RandomQuote/"/>

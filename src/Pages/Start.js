@@ -3,6 +3,7 @@ import {Link} from "react-router-dom";
 import hr from "../Assets/Images/hand-right.png";
 import hl from "../Assets/Images/hand-left.png";
 import hd from "../Assets/Images/hand-down.png";
+import '../Assets/Styles/Start.css'
 
 const Start=()=>{
     return (
