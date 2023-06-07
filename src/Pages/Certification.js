@@ -1,5 +1,6 @@
 import React from "react";
 import Certcard from "../Components/Certcard";
+import '../Assets/Styles/Certification.css'
 
 const Certification=()=>{
     return (

@@ -1,4 +1,5 @@
 import React from "react";
+import '../Assets/Styles/Skills.css'
 import Progress from "../Components/Progress.js";
 import HTML from "../Assets/Images/html.png";
 import css from "../Assets/Images/css.png";

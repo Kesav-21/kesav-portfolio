@@ -1,4 +1,5 @@
 import React from "react";
+import '../Assets/Styles/Works.css'
 import Card from "../Components/Card";
 import Bank from "../Assets/Images/bank.jpg";
 import Quote from "../Assets/Images/quote.jpg";
