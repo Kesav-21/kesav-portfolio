@@ -1,12 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&display=swap');
+
 *{
   margin:0;
   padding:0;
   box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  color:#fff;
 }
 body {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-image: linear-gradient(rgba(0,0,0,.75),rgba(0,0,0,.75)),url(./Assets/Images/bg4.jpg);
@@ -17,109 +18,22 @@ body {
   height: 100%;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
-
 /*Container*/
 .container{
   width: 70%;
-  margin: 30px auto;
-}
-
-.education-section{
-  height: calc(100vh + -80px);
-  position: relative;
-}
-.education-section h1{
-  margin: 0;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center;
+  margin: 5vh auto;
+  min-height:80vh;
+  background: rgba( 255, 255, 255, 0.20 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 3.0px );
+  -webkit-backdrop-filter: blur( 3.0px );
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
 }
 
 
-/* Works Component */
-
-.card{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding: 5px;
-  width:140px;
-  border-radius: 5px;
-  background-color: grey;
-  text-align: center;
-}
-.card > a{
-  text-decoration: none;
-}
-.card-section{
-  display: grid;
-  grid-template-columns: auto auto auto auto auto;
-  row-gap: 10px;
-  justify-content: space-around;
-  margin: 20px 0;
-}
-
-@media only screen and (max-width:768px){
-  /* For Mobile Devices */
-  .card-section{
-      grid-template-columns: auto auto;
-  }
-  
-}
-
-/* Skills Component */
 
 
-.skill-container{
-  display: grid;
-  grid-template-columns: auto auto auto auto;
-  gap: 10px;
-}
 
-.content-section p{
-  text-align: center;
-  font-size: 30px;
-  margin-bottom: 2vh;
-}
-.skill-progress{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-.other-skills-container{
-  margin: 2vh 5vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-.other-skills img{
-  margin: 2px 10px;
-}
 
-@media only screen and (max-width:768px){
-  .skill-container{
-      grid-template-columns: auto auto;
-  }
-}
 
-/* Certification Section */
-
-.certification-section{
-  display: grid;
-  grid-template-columns: auto auto;
-  justify-content:space-evenly;
-  margin-bottom: 20px;
-}
-
-@media screen and (max-width:768px){
-  .certification-section{
-    grid-template-columns:auto;
-  }
-}

@@ -1,0 +1,31 @@
+/* Works Component */
+
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    width:140px;
+    border-radius: 5px;
+    background-color: grey;
+    text-align: center;
+  }
+  .card > a{
+    text-decoration: none;
+  }
+  .card-section{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    row-gap: 10px;
+    justify-content: space-around;
+    margin: 20px 0;
+  }
+  
+  @media only screen and (max-width:768px){
+    /* For Mobile Devices */
+    .card-section{
+        grid-template-columns: auto auto;
+    }
+    
+  }

@@ -28,7 +28,6 @@ const Works=()=>{
                 <Card title="Phone Directory" img={Pdir} url="https://phonedirectorykesav.netlify.app/"/>
                 <Card title="Task Adder" img={Task} url="https://tasktrackerkesav.netlify.app/"/>
                 </section>
-                
             </div>
         </div>
     )

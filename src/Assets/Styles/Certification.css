@@ -1,0 +1,30 @@
+/* Certification Section */
+
+.certification-section{
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content:space-evenly;
+    margin-bottom: 20px;
+  }
+  
+  @media screen and (max-width:768px){
+    .certification-section{
+      grid-template-columns:auto;
+    }
+  }
+
+  /* Education Section */
+
+.education-section{
+    height: calc(100vh + -80px);
+    position: relative;
+  }
+  .education-section h1{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
