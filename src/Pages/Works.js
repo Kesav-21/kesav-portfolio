@@ -30,7 +30,7 @@ const Works=()=>{
                 <Card title="Markdown Previewer" img={Mdown} url="https://kesav-21.github.io/MarkDownPreviewer/"/>
                 <Card title="Sound Machine" img={SMach} url="https://kesav-21.github.io/SoundMachine/"/>
                 <Card title="Product Landing Page" img={Product} url="https://kesav-21.github.io/ProductLandingPage/"/>
-                <Card title="Phone Directory" img={Pdir} url="https://phonedirectorykesav.netlify.app/"/>
+                <Card title="Phone Directory" img={Pdir} url="https://kesav-21.github.io/Phone-Directory/"/>
                 <Card title="Task Adder" img={Task} url="https://tasktrackerkesav.netlify.app/"/>
                 </section>
             </div>
