@@ -1,4 +1,4 @@
-import React,{useEffect, useState} from "react";
+import React,{useState} from "react";
 import Modal from "./Modal";
 
 const Card=(props)=>{
@@ -11,7 +11,6 @@ const Card=(props)=>{
         live:""
     });
 const handleClick=async()=>{
-    console.log(props.work)
     setData({
         title:props.work.title,
         tech:props.work.tech,
@@ -20,7 +19,6 @@ const handleClick=async()=>{
         live:props.work.live
     })
     setShowModal(true)
-    console.log(data)
 }
 const handleClose=()=>{
     setShowModal(false)
@@ -28,30 +26,30 @@ const handleClose=()=>{
     return (
         <div className="card">
             <Modal show={showModal} handleClose={handleClose} work={props.work}>
-                <div>
-                    <h3>Description</h3>
-                    <div>
-                        <div>
-                        <h3>Title:</h3>
-                        <p> {data.title}</p>
+                <div className="modal-section">
+                    <h3 className="modal-title">Description for {data.title}</h3>
+                    <div className="modal-info">
+                        <div className="modal-flex">
+                            <h3>Title:</h3>
+                            <p> {data.title}</p>
                         </div>
-                        <div>
+                        <div className="modal-flex">
                         <h3>Technology Used:</h3>
-                        <ul>{data.tech.map((ele)=> 
+                        <ul className="modal-list">{data.tech.map((ele)=> 
                         <li>
                             {ele}
                         </li>   
                     )}</ul>
                     </div>
-                    <div>
+                    <div className="modal-flex">
                     <h3>Description:</h3>
                     <p>{data.desc}</p>
                     </div>
-                    <div>
+                    <div className="modal-flex">
                         <h3>Github Link:</h3>
                         <a href={`${data.github}`}>{data.github}</a>
                     </div>
-                    <div>
+                    <div className="modal-flex">
                         <h3>Live Site:</h3>
                         <a href={`${data.live}`}>{data.live}</a>
                     </div>

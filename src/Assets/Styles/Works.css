@@ -20,13 +20,14 @@
     grid-template-columns: auto auto auto auto auto;
     row-gap: 10px;
     justify-content: space-around;
-    margin: 50px 0;
+    margin: 30px 0;
   }
   
   @media only screen and (max-width:768px){
     /* For Mobile Devices */
     .card-section{
         grid-template-columns: auto auto;
+
     }
     
   }
