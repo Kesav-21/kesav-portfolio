@@ -16,9 +16,6 @@ import Work from '../Assets/Images/work.jpg';
 import { work_desc } from "../data/work";
 
 const Works=()=>{
-    const handlebtn=()=>{
-        
-    }
     return(
         <div className="container" id="scrollup">
             <div className="content-section">
