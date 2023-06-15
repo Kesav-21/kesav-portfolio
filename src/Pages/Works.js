@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import '../Assets/Styles/Works.css'
 import Card from "../Components/Card";
 import Bank from "../Assets/Images/bank.jpg";
@@ -13,6 +13,7 @@ import Pdir from "../Assets/Images/phonebook.png";
 import Task from "../Assets/Images/task.jpg";
 import Donate from '../Assets/Images/donate.png';
 import Work from '../Assets/Images/work.jpg';
+import { work_desc } from "../data/work";
 
 const Works=()=>{
     return(
@@ -20,18 +21,18 @@ const Works=()=>{
             <div className="content-section">
             <h1 className="title">My Works</h1>
                 <section className="card-section">
-                <Card title="Basic Banking App" img={Bank} url="https://spark-kesav.000webhostapp.com/"/>
-                <Card title="Donate Payment gateway" img={Donate} url="https://dopayint.netlify.app"/>
-                <Card title="Work Tables" img={Work} url="http://kesav-21.github.io/worktables/"/>
-                <Card title="Quotes Generator" img={Quote} url="https://kesav-21.github.io/RandomQuote/"/>
-                <Card title="Pomorodo Clock" img={Clock} url="https://kesav-21.github.io/Build-25-5-clock/"/>
-                <Card title="Calculator" img={Calc} url="https://kesav-21.github.io/SimpleJSCalculator/"/>
-                <Card title="Survey Form" img={Survey} url="https://kesav-21.github.io/SurveyForm/"/>
-                <Card title="Markdown Previewer" img={Mdown} url="https://kesav-21.github.io/MarkDownPreviewer/"/>
-                <Card title="Sound Machine" img={SMach} url="https://kesav-21.github.io/SoundMachine/"/>
-                <Card title="Product Landing Page" img={Product} url="https://kesav-21.github.io/ProductLandingPage/"/>
-                <Card title="Phone Directory" img={Pdir} url="https://kesav-21.github.io/Phone-Directory/"/>
-                <Card title="Task Adder" img={Task} url="https://tasktrackerkesav.netlify.app/"/>
+                <Card title="Basic Banking App" img={Bank} work={work_desc[0]}/>
+                <Card title="Donate Payment gateway" img={Donate} work={work_desc[1]}/>
+                <Card title="Work Tables" img={Work} work={work_desc[2]}/>
+                <Card title="Quotes Generator" img={Quote} work={work_desc[3]}/>
+                <Card title="Pomorodo Clock" img={Clock} work={work_desc[4]}/>
+                <Card title="Calculator" img={Calc} work={work_desc[5]}/>
+                <Card title="Survey Form" img={Survey} work={work_desc[6]}/>
+                <Card title="Markdown Previewer" img={Mdown} work={work_desc[7]}/>
+                <Card title="Sound Machine" img={SMach} work={work_desc[8]}/>
+                <Card title="Product Landing Page" img={Product} work={work_desc[9]}/>
+                <Card title="Phone Directory" img={Pdir} work={work_desc[10]}/>
+                <Card title="Task Adder" img={Task} work={work_desc[11]}/>
                 </section>
             </div>
         </div>
