@@ -18,6 +18,8 @@ const handleClick=async()=>{
         github:props.work.github,
         live:props.work.live
     })
+    const div=document.getElementById('scrollup');
+        div.scroll({top:0,behavior:"smooth"})
     setShowModal(true)
 }
 const handleClose=()=>{
