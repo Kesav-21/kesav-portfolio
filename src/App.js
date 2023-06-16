@@ -23,6 +23,7 @@ function App() {
           <Route path='/certification' element={<Certification/>}/>
           <Route path='/skills' element={<Skills/>}/>
           <Route path='/contactme' element={<Contact/>}/>
+          <Route path="*" element={<Home/>}/>
         </Routes>
       </Router>
     </div>

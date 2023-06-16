@@ -13,6 +13,8 @@ import Pdir from "../Assets/Images/phonebook.png";
 import Task from "../Assets/Images/task.jpg";
 import Donate from '../Assets/Images/donate.png';
 import Work from '../Assets/Images/work.jpg';
+import housing from '../Assets/Images/housing.png';
+import todo from '../Assets/Images/todolist.png';
 import { work_desc } from "../data/work";
 
 const Works=()=>{
@@ -33,6 +35,8 @@ const Works=()=>{
                 <Card title="Product Landing Page" img={Product} work={work_desc[9]}/>
                 <Card title="Phone Directory" img={Pdir} work={work_desc[10]}/>
                 <Card title="Task Adder" img={Task} work={work_desc[11]}/>
+                <Card title="Housing Clone" img={housing} work={work_desc[12]}/>
+                <Card title="ToDoList" img={todo} work={work_desc[13]}/>
                 </section>
             </div>
         </div>

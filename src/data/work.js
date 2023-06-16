@@ -90,5 +90,13 @@ export const work_desc=[
         desc:"It is the website inspired form the realtor website which has been cloned using the reactjs and some npm packages and instead of server side programming firebase is used to provide the adding the listing,delete the listing,view the listing and user authentication,etc.This app helps to find the house or homes that are available for sell or rent.",
         github:"https://github.com/Kesav-21/HousingFinder",
         live:"https://housingfinderclok7.netlify.app",
+    },
+    {
+        title:"ToDOList Using Flask",
+        tech:['HTML','CSS','Flask','SQLAlchemy'],
+        desc:"It is the website used to keep track of the to do tasks and store them in the database and can access from anywhere",
+        github:"https://github.com/Kesav-21/todolist",
+        live:"https://todolist-jyvz.onrender.com/"
     }
+
 ]
