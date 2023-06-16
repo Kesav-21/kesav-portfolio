@@ -74,7 +74,7 @@ export const work_desc=[
         tech:['HTML','CSS','Javascript','ReactJS'],
         desc:"a Database that lists the names, addresses, and phone numbers of the people and businesses in a certain area.Using this webapp you can add and manage the phone numbers of the person",
         github:"https://github.com/Kesav-21/Phone-Directory",
-        live:"https://kesav-21.github.io/Phone-Directory/",
+        live:"https://phonedirectoryk7.netlify.app/",
     },
     {
         title:"Task Adder",
