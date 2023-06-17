@@ -92,6 +92,6 @@
       height:100%;
       overflow: scroll;
       width: 100%;
-
+      word-wrap: break-word;
     }
   }

@@ -37,7 +37,7 @@ export const work_desc=[
     {
         title:"Calculator",
         tech:['HTML','CSS','Javascript'],
-        desc:"It is a Simple JS calculator made to perform basic operations like Addition,Subtraction,Division,Multiplication",
+        desc:"It is a Simple JS calculator made to perform basic operations like Addition, Subtraction, Division, Multiplication.",
         github:"https://github.com/Kesav-21/SimpleJSCalculator",
         live:"https://kesav-21.github.io/SimpleJSCalculator/",
     },
