@@ -27,7 +27,7 @@ const handleClose=()=>{
     console.log(props.img)
 }
     return (
-        <div className="card">
+        <div className="card" key={props.title}>
             <Modal show={showModal} handleClose={handleClose} work={props.work}>
                 <div className="modal-section">
                     <h3 className="modal-title">Description for {data.title}</h3>

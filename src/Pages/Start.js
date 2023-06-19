@@ -6,7 +6,7 @@ const Start=()=>{
     return (
         <div className="start">
             <h1>Welcome to Kesavaraman PortFolio</h1>
-            <section class="start-ani">
+            <section className="start-ani">
                 <div id="hd-img">
             <img id="img-down" src='images/hand-down.png' width={50} height={50} alt="hand-down"/>
             <img id="img-down" src='images/hand-down.png' width={50} height={50} alt="hand-down"/>

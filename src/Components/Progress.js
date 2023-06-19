@@ -13,7 +13,7 @@ const Progress=(props)=>{
             strokeLinecap: "butt",
             trailColor: "#eee"
             })}>
-            <img style={{ width: 70, marginTop: 0 }} src={props.img} alt="doge" />
+            <img style={{ width: 50, marginTop: 20 }} src={props.img} alt="doge" />
             <div style={{ fontSize: 12, marginTop: 10,textAlign:"center" }}>
                 <strong>{props.title}<br/>{props.percent}/100</strong>
             </div>

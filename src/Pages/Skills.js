@@ -20,7 +20,7 @@ const Skills=()=>{
                 <section className="other-skills">
                     {
                     otherskills.map((oskill)=>
-                        <div className="oskill">
+                        <div className="oskill" key={oskill.skill}>
                             <img src={oskill.image} width={50} height={50} alt={oskill.skill}/>
                             <p>{oskill.skill}</p>
                         </div>

@@ -11,7 +11,7 @@ const Certcard=(props)=>{
     },[props.edu])
     
     return(
-        <div className="certification-card">
+        <div className="certification-card" key={props.certificate}>
             <hr />
             <h3 style={{color:"#008cff"}} >{props.certificate}</h3>
             {isEducation ? <i>{props.provider}</i>:<i>by {props.provider}</i>}

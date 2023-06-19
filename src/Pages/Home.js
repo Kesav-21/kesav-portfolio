@@ -24,7 +24,7 @@ const Home=()=>{
                             </div>
                         </div>
                         <p>Hi! I'm Kesavaraman, a passionate self-taught FullStack developer and a graduand in B.E Computer Science from Panimalar Engineering College. I'm a Tech enthusiast and a passionate learner who's always willing to learn and work across technologies and domains bringing you programming and design from the future.</p>
-                        <div class="buttondiv">
+                        <div className="buttondiv">
                             <a className="button" href="https://Kesav-21.github.io/ProfilePage">Profile Page</a>
                             <a className="button" href="https://Kesav-21.github.io/Kesav-CV">Resume</a>
                             <Link className="button" to="/skills">My Skills</Link>
