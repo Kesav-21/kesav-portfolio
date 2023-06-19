@@ -1,6 +1,6 @@
 import React from "react";
 import Certcard from "../Components/Certcard";
-import '../Assets/Styles/Certification.css';
+import '../assets/styles/Certification.css';
 import {education,certifications, internships} from '../data/certifications';
 
 const Certification=()=>{

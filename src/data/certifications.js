@@ -50,7 +50,7 @@ export const certifications=[
         issued:"May 2021"
     },
     {
-        title:"_Python",
+        title:"Python",
         provided:"GUVI",
         issued:"Apr 2021"
     },

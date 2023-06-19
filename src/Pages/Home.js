@@ -1,6 +1,5 @@
 import React from "react";
-import "../Assets/Styles/Home.css";
-import K from "../Assets/Images/K.jpg";
+import "../assets/styles/Home.css";
 import { Link } from "react-router-dom";
 
 const Home=()=>{
@@ -12,7 +11,7 @@ const Home=()=>{
                         <h1 id="tname">Kesavaraman</h1>
                         <h3>MERN Stack Developer</h3>
                         <div className="image-section">
-                    <img src={K} alt="kesav-profile"/>
+                    <img src='images/K.jpg' alt="kesav-profile"/>
                 </div>
                         <p>Hi! I'm Kesavaraman, a passionate self-taught Full Stack web developer and a graduand in Computer Science from Panimalar Engineering College. I'm a Tech enthusiast and a passionate learner who's always willing to learn and work across technologies and domains bringing you programming and design from the future.</p>
                         <div class="buttondiv">

@@ -24,6 +24,7 @@ const handleClick=async()=>{
 }
 const handleClose=()=>{
     setShowModal(false)
+    console.log(props.img)
 }
     return (
         <div className="card">
