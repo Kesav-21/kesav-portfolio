@@ -2,14 +2,12 @@
 /*Text content*/
 .content-section{
   margin: 10px 0px;
-  
   width: 100%;
 }
 
 /*TEXT*/
 .text-section{
-  margin-top: 50px;
-  margin:50px auto;
+  margin:10px auto;
   width:80%;
 }
 
@@ -61,6 +59,27 @@
   
 }
 
+/* Contact Home */
+.contact-main{
+  display:flex;
+  background:green;
+  padding: 5px;
+  justify-content: center;
+  align-items:center;
+  width:25%;
+  margin: 0 auto;
+  flex-direction: column;
+  border-radius: 40px;
+}
+
+.contact-home{
+  display: flex;
+  align-items: center;
+}
+.contact-home > img{
+  margin: 0px 10px;
+}
+
 /*Mobile View*/
 @media screen and (max-width:768px){
   .top-nav-right{
@@ -86,5 +105,8 @@
     margin-top: 10px;
     border-radius: 50%;
     object-fit: cover;
+  }
+  .contact-main{
+    width:80%;
   }
 }

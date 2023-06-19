@@ -14,8 +14,8 @@ const Certcard=(props)=>{
         <div className="certification-card">
             <hr />
             <h3 style={{color:"#008cff"}} >{props.certificate}</h3>
-            {isEducation ? <i>{props.provider}</i>:<i>by {props.provider}</i>}<br />
-            <small>{props.date}</small><br/>
+            {isEducation ? <i>{props.provider}</i>:<i>by {props.provider}</i>}
+            <small>{props.date}</small>
             {
                 isEducation && <small>Grade: {props.grade}</small>
             }

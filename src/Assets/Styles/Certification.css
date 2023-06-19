@@ -2,31 +2,22 @@
 
 .certification-section{
     display: grid;
-    grid-template-columns: auto auto;
-    justify-content:space-evenly;
-    margin-bottom: 20px;
-    gap:10px;
+    grid-template-columns: 50% 50%;
+    margin:10px auto;
+    width:90%;
+    row-gap: 20px;
+
+  }
+
+  .certification-card{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin: 10px 20px;
   }
   
   @media screen and (max-width:768px){
     .certification-section{
       grid-template-columns:auto;
-      margin:0 20px;
     }
   }
-
-  /* Education Section */
-
-.education-section{
-    height: calc(100vh + -80px);
-    position: relative;
-  }
-  .education-section h1{
-    margin: 0;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-  }
-  

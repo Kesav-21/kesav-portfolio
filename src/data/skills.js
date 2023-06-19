@@ -53,6 +53,21 @@ export const skills=[
         skill:"Flutter",
         progress:70,
         image:"images/flutter.png"
+    },
+    {
+        skill:"Bootstrap",
+        progress:80,
+        image:"images/bootstrap.png"
+    },
+    {
+        skill:"TailwindCSS",
+        progress:75,
+        image:"images/tailwind.png"
+    },
+    {
+        skill:"Flask",
+        progress:30,
+        image:"images/flask.png"
     }
 ]
 
@@ -69,16 +84,29 @@ export const otherskills=[
         skill:"Photoshop",
         image:"images/photoshop.png"
     },
-    {
-        skill:"Bootstrap",
-        image:"images/bootstrap.png"
-    },
-    {
-        skill:"TailwindCSS",
-        image:"images/tailwind.png"
-    },
+    
     {
         skill:"GraphQL",
-        image:"images/linux.png"
+        image:"images/graphql.png"
     },
+    {
+        skill:"Bash",
+        image:"images/bash.png"
+    },
+    {
+        skill:"C++",
+        image:"images/c-plus.png"
+    },
+    {
+        skill:"Dart",
+        image:"images/dart.png"
+    },
+    {
+        skill:"Numpy",
+        image:"images/numpy.png"
+    },
+    {
+        skill:"Pandas",
+        image:"images/pandas.png"
+    }
 ]
