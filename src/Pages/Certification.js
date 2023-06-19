@@ -1,30 +1,36 @@
 import React from "react";
 import Certcard from "../Components/Certcard";
-import '../Assets/Styles/Certification.css'
+import '../Assets/Styles/Certification.css';
+import {education,certifications, internships} from '../data/certifications';
 
 const Certification=()=>{
     return (
         <div className="container">
             <div className="content-section">
-        <h1 className="title blue">Certification Details</h1>
+        <h1 className="title blue">Education and Experience</h1>
+        <div>
+        <h2 style={{textAlign:"center",margin:"10px 0px"}}>Education</h2>
+        <section className="certification-section">
+            {
+                education.map((ele)=><Certcard certificate={ele.institute} provider={ele.course} date={ele.duration} grade={ele.grade} edu={true}/>)
+            }
+        </section>
+        </div>
         <div>
         <h2 style={{textAlign:"center",marginBottom:"10px"}}>Certification Courses</h2>
         <section className="certification-section">
-            <Certcard certificate="Responsive Web Design" provider="FreeCodeCamp" date="May 2021"/>
-            <Certcard certificate="JavaScript Algorithms and Data Structures" provider="FreeCodeCamp" date="Jul 2021"/>
-            <Certcard certificate="Front-End Development Libraries" provider="FreeCodeCamp" date="Oct 2021"/>
-            <Certcard certificate="Python for Data Science, AI & Development" provider="Coursera (IBM)" date="Oct 2021"/>
-            <Certcard certificate="Data Analysis With Python: Zero to Pandas" provider="Jovian.ai" date="Oct 2020"/>
-            <Certcard certificate="Front-End Web Development with React" provider="Coursera" date="Nov 2022"/>
+            {
+                certifications.map((cert)=><Certcard certificate={cert.title} provider={cert.provided} date={cert.issued}/>)
+            }
         </section>
         </div>
         <div>
         <h2 style={{textAlign:"center",margin:"10px 0px"}}>Experience & Internship</h2>
         <section className="certification-section">
-            <Certcard certificate="Web Development Intern" provider="The Sparks Foundation" date="Mar 2022"/>
-            <Certcard certificate="Graphic Designer" provider="OneYes Technologies" date="Nov 2020"/>
-            <Certcard certificate="Web Development Intern" provider="The Sparks Foundation" date="Feb 2023"/>
-            <Certcard certificate="Full stack Web Developer" provider="TripoSaints" date="Mar 2023-Present"/>
+
+            {
+                internships.map((intern)=><Certcard certificate={intern.title} provider={intern.company} date={intern.experience}/>)
+            }
         </section>
         </div>
         </div>

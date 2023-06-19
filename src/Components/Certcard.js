@@ -1,12 +1,24 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 
 const Certcard=(props)=>{
+    const [isEducation,setIsEducation]=useState(false);
+    useEffect(()=>{
+        const edu=(edu)=>{
+            if(edu)
+            setIsEducation(true)
+        }
+        edu(props.edu)
+    },[props.edu])
+    
     return(
         <div className="certification-card">
             <hr />
             <h3 style={{color:"#008cff"}} >{props.certificate}</h3>
-            <i>by {props.provider}</i><br />
-            <small>{props.date}</small>
+            {isEducation ? <i>{props.provider}</i>:<i>by {props.provider}</i>}<br />
+            <small>{props.date}</small><br/>
+            {
+                isEducation && <small>Grade: {props.grade}</small>
+            }
             <hr />            
         </div>
     )

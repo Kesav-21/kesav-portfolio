@@ -17,7 +17,7 @@ export const work_desc=[
         title:"Work Tables",
         tech:['HTML','CSS','Javascript','ReactJS'],
         desc:"Work Tables is the design of webpage it shows the details of the employees working in which table of the company and on which project he/she is invloved,using this we can filter and view the particular tables and hovering on the chair will show th information of the employee and project details",
-        github:"https://github.com/Kesav-21/DonatePageWithPaymentIntegration",
+        github:"https://github.com/Kesav-21/worktables",
         live:"http://kesav-21.github.io/worktables",
     },
     {
@@ -92,7 +92,7 @@ export const work_desc=[
         live:"https://housingfinderclok7.netlify.app",
     },
     {
-        title:"ToDOList Using Flask",
+        title:"ToDoList Using Flask",
         tech:['HTML','CSS','Flask','SQLAlchemy'],
         desc:"It is the website used to keep track of the to do tasks and store them in the database and can access from anywhere",
         github:"https://github.com/Kesav-21/todolist",
