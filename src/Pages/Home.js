@@ -20,7 +20,7 @@ const Home=()=>{
                             </div>
                             <div className="contact-home">
                                 <img src='/images/mail.png' alt="phone" height={20} width={20}/>
-                                <a href="mail:cgkesav@gmail.com">cgkesav@gmail.com</a>
+                                <a href="mailto:cgkesav@gmail.com">cgkesav@gmail.com</a>
                             </div>
                         </div>
                         <p>Hi! I'm Kesavaraman, a passionate self-taught FullStack developer and a graduand in B.E Computer Science from Panimalar Engineering College. I'm a Tech enthusiast and a passionate learner who's always willing to learn and work across technologies and domains bringing you programming and design from the future.</p>
