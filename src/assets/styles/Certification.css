@@ -1,0 +1,23 @@
+/* Certification Section */
+
+.certification-section{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin:10px auto;
+    width:90%;
+    row-gap: 20px;
+
+  }
+
+  .certification-card{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin: 10px 20px;
+  }
+  
+  @media screen and (max-width:768px){
+    .certification-section{
+      grid-template-columns:auto;
+    }
+  }

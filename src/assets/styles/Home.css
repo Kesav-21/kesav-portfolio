@@ -1,0 +1,112 @@
+
+/*Text content*/
+.content-section{
+  margin: 10px 0px;
+  width: 100%;
+}
+
+/*TEXT*/
+.text-section{
+  margin:10px auto;
+  width:80%;
+}
+
+/*image*/
+.image-section{
+  margin:0 auto;
+  width:20%;
+}
+.image-section img{
+  width:100%;
+  border-radius: 20%;
+}
+.content-section .content h1{
+  text-align: center;
+  padding: 10px;
+}
+.content-section .content h3{
+  color: #008cff;
+  text-align: center;
+}
+.content-section .content p{
+  text-align: center;
+  margin: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-family: sans-serif;
+  font-size: 17px;
+  line-height: 1.5;
+}
+.buttondiv{
+    display: grid;
+    gap: 10px;
+    grid-template-columns: auto auto ;
+    grid-column-start: 1 ;
+    grid-column-end: 3;
+}
+.button{
+  background-color: #ff0000;
+  padding:12px 20px;
+  color:rgb(217, 255, 2);
+  text-decoration:none;
+  font-size: 20px;
+  letter-spacing: 1.5px;
+  text-align: center;
+  border-radius: 10px;
+  }
+.button:hover{
+  background-color: green;
+  
+}
+
+/* Contact Home */
+.contact-main{
+  display:flex;
+  background:green;
+  padding: 5px;
+  justify-content: center;
+  align-items:center;
+  width:55%;
+  margin: 0 auto;
+  flex-direction: column;
+  border-radius: 40px;
+}
+
+.contact-home{
+  display: flex;
+  align-items: center;
+}
+.contact-home > img{
+  margin: 0px 10px;
+}
+
+/*Mobile View*/
+@media screen and (max-width:768px){
+  .top-nav-right{
+    float:none;
+  }
+  
+  .content-section{
+    float:none;
+    width: 100%;
+    display: block;
+  }
+  .text-section{
+    width:100%;
+  }
+  .image-section{
+    float:none;
+    width:100%;
+  }
+  .image-section img{
+    width:50%;
+    display: block;
+    margin:auto;
+    margin-top: 10px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  .contact-main{
+    width:80%;
+  }
+}
