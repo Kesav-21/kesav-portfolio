@@ -98,7 +98,7 @@ export const education=[
         grade:"80.66%"
     },
     {
-        institute:"Smt Krishna Moolchand Vivekananda Vidyalaya",
+        institute:"Smt Krishna Moolchand Maheswari Vivekananda Vidyalaya",
         course:"SSLC",
         duration:"2018",
         grade:"92.2%"
