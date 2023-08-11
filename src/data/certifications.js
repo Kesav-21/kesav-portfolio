@@ -65,7 +65,7 @@ export const internships=[
     {
         title:"Full Stack Web Developer Intern",
         company:"Tripo Saints",
-        experience:"Mar 2023-Present"
+        experience:"Mar 2023-June 2023"
     },
     {
         title:"Web Developer Intern",
