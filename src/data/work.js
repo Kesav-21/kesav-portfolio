@@ -100,7 +100,7 @@ export const work_desc=[
         title:"Housing Clone using Firebase",
         image:"images/housing.png",
         tech:['HTML','CSS','JS','ReactJS','Firebase','Tailwind'],
-        desc:"It is the website inspired form the realtor website which has been cloned using the reactjs and some npm packages and instead of server side programming firebase is used to provide the adding the listing,delete the listing,view the listing and user authentication,etc.This app helps to find the house or homes that are available for sell or rent.",
+        desc:"It is the website that helps to find the houses that are available for sale/rent using the reactjs and firebase is used to provide the adding the listing,delete the listing,view the listing and user authentication,etc.",
         github:"https://github.com/Kesav-21/HousingFinder",
         live:"https://housingfinderclok7.netlify.app",
     },
