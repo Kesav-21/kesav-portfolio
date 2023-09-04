@@ -97,7 +97,7 @@ export const work_desc=[
     }
     ,
     {
-        title:"Housing Clone using Firebase",
+        title:"Housing Finder using Firebase",
         image:"images/housing.png",
         tech:['HTML','CSS','JS','ReactJS','Firebase','Tailwind'],
         desc:"It is the website that helps to find the houses that are available for sale/rent using the reactjs and firebase is used to provide the adding the listing,delete the listing,view the listing and user authentication,etc.",
